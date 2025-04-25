@@ -1,0 +1,22 @@
+[
+    {
+        "src": "images/photo_2025-04-25_23-16-02.jpg",
+        "alt": "Personal Photo 1",
+        "caption": "My Journey"
+    },
+    {
+        "src": "images/photo.jpg",
+        "alt": "Personal Photo 2",
+        "caption": "About Me"
+    },
+    {
+        "src": "images/Osaka-caslte-night-cherry-blossom.jpg",
+        "alt": "Osaka Castle at Night",
+        "caption": "Night View"
+    },
+    {
+        "src": "images/asia-japan-landscape-beautiful-spring-fuji-mountain-aziia-ia.jpg",
+        "alt": "Mount Fuji Landscape",
+        "caption": "Scenic Beauty"
+    }
+] 

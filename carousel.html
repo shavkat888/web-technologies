@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel - Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Source+Sans+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="carousel.html" class="active">Carousel</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="carousel-section">
+                <h1>Image Carousel</h1>
+                <div class="carousel-container">
+                    <button class="carousel-button prev" id="prevBtn">❮</button>
+                    <div class="carousel-slide" id="carousel-slide">
+                        <!-- Images will be loaded here by JavaScript -->
+                    </div>
+                    <button class="carousel-button next" id="nextBtn">❯</button>
+                </div>
+                <div class="carousel-pips" id="carousel-pips">
+                    <!-- Pips will be added here by JavaScript -->
+                </div>
+            </section>
+
+            <section class="contact-section">
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h2>Contact Information</h2>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <span class="contact-label">Email:</span>
+                                <a href="mailto:shavkat.rustamov@student.mdis.uz">b2303755@mdis.uz</a>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-label">Student ID:</span>
+                                <span>b2303755</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-label">Location:</span>
+                                <span>Tashkent, Uzbekistan</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-label">University:</span>
+                                <span>MDIS Tashkent</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>2025 My Portfolio</p>
+        <div class="social-links">
+            <a href="https://github.com/shavkat888" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/shavkat-rustamov-aa821b362/" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
